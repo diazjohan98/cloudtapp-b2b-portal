@@ -1,9 +1,10 @@
-import React from "react";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { CorporateSolutions } from "./components/CorporateSolutions";
 import { RestaurantSolutions } from "./components/RestaurantSolutions";
+import { QuoteCalculator } from "./components/QuoteCalculator";
 import { WhatsAppWidget } from "./components/WhatsAppWidget";
+import { Footer } from "./components/Footer";
 
 export default function App() {
   return (
@@ -13,7 +14,9 @@ export default function App() {
         <Hero />
         <CorporateSolutions />
         <RestaurantSolutions />
+        <QuoteCalculator />
       </main>
+      <Footer />
       <WhatsAppWidget />
     </div>
   );
